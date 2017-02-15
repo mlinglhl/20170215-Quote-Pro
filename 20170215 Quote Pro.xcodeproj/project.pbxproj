@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		8991D80F1E54B90F00D7C69E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991D80E1E54B90F00D7C69E /* AppDelegate.swift */; };
-		8991D8111E54B90F00D7C69E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991D8101E54B90F00D7C69E /* ViewController.swift */; };
 		8991D8141E54B90F00D7C69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8991D8121E54B90F00D7C69E /* Main.storyboard */; };
 		8991D8171E54B90F00D7C69E /* _0170215_Quote_Pro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8991D8151E54B90F00D7C69E /* _0170215_Quote_Pro.xcdatamodeld */; };
 		8991D8191E54B90F00D7C69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8991D8181E54B90F00D7C69E /* Assets.xcassets */; };
 		8991D81C1E54B90F00D7C69E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8991D81A1E54B90F00D7C69E /* LaunchScreen.storyboard */; };
+		8991D8241E54B92E00D7C69E /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8991D8231E54B92E00D7C69E /* QuoteView.xib */; };
+		8991D8261E54BAEC00D7C69E /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991D8251E54BAEC00D7C69E /* QuoteView.swift */; };
+		8991D8281E54BBF300D7C69E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991D8271E54BBF300D7C69E /* DataManager.swift */; };
+		8991D82A1E54BE3800D7C69E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991D8291E54BE3800D7C69E /* HomeViewController.swift */; };
+		8991D82C1E54C13900D7C69E /* MakeQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991D82B1E54C13900D7C69E /* MakeQuoteViewController.swift */; };
+		89D2796B1E54FA0900CF4082 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D2796A1E54FA0900CF4082 /* QuoteTableViewCell.swift */; };
+		89D2796D1E55002A00CF4082 /* QuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D2796C1E55002A00CF4082 /* QuoteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8991D80B1E54B90F00D7C69E /* 20170215 Quote Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20170215 Quote Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8991D80E1E54B90F00D7C69E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8991D8101E54B90F00D7C69E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8991D8131E54B90F00D7C69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8991D8161E54B90F00D7C69E /* _0170215_Quote_Pro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _0170215_Quote_Pro.xcdatamodel; sourceTree = "<group>"; };
 		8991D8181E54B90F00D7C69E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8991D81B1E54B90F00D7C69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8991D81D1E54B90F00D7C69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8991D8231E54B92E00D7C69E /* QuoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuoteView.xib; sourceTree = "<group>"; };
+		8991D8251E54BAEC00D7C69E /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		8991D8271E54BBF300D7C69E /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8991D8291E54BE3800D7C69E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8991D82B1E54C13900D7C69E /* MakeQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeQuoteViewController.swift; sourceTree = "<group>"; };
+		89D279621E54EBE100CF4082 /* QuoteObject+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuoteObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		89D279631E54EBE100CF4082 /* QuoteObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuoteObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		89D279641E54EBE100CF4082 /* PhotoObject+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		89D279651E54EBE100CF4082 /* PhotoObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		89D2796A1E54FA0900CF4082 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		89D2796C1E55002A00CF4082 /* QuoteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,10 @@
 		8991D8021E54B90F00D7C69E = {
 			isa = PBXGroup;
 			children = (
+				89D279621E54EBE100CF4082 /* QuoteObject+CoreDataClass.swift */,
+				89D279631E54EBE100CF4082 /* QuoteObject+CoreDataProperties.swift */,
+				89D279641E54EBE100CF4082 /* PhotoObject+CoreDataClass.swift */,
+				89D279651E54EBE100CF4082 /* PhotoObject+CoreDataProperties.swift */,
 				8991D80D1E54B90F00D7C69E /* 20170215 Quote Pro */,
 				8991D80C1E54B90F00D7C69E /* Products */,
 			);
@@ -57,9 +77,15 @@
 			isa = PBXGroup;
 			children = (
 				8991D80E1E54B90F00D7C69E /* AppDelegate.swift */,
-				8991D8101E54B90F00D7C69E /* ViewController.swift */,
-				8991D8121E54B90F00D7C69E /* Main.storyboard */,
+				8991D8271E54BBF300D7C69E /* DataManager.swift */,
+				89D2796C1E55002A00CF4082 /* QuoteManager.swift */,
+				8991D8251E54BAEC00D7C69E /* QuoteView.swift */,
+				89D2796A1E54FA0900CF4082 /* QuoteTableViewCell.swift */,
+				8991D8291E54BE3800D7C69E /* HomeViewController.swift */,
+				8991D82B1E54C13900D7C69E /* MakeQuoteViewController.swift */,
 				8991D8181E54B90F00D7C69E /* Assets.xcassets */,
+				8991D8231E54B92E00D7C69E /* QuoteView.xib */,
+				8991D8121E54B90F00D7C69E /* Main.storyboard */,
 				8991D81A1E54B90F00D7C69E /* LaunchScreen.storyboard */,
 				8991D81D1E54B90F00D7C69E /* Info.plist */,
 				8991D8151E54B90F00D7C69E /* _0170215_Quote_Pro.xcdatamodeld */,
@@ -129,6 +155,7 @@
 				8991D81C1E54B90F00D7C69E /* LaunchScreen.storyboard in Resources */,
 				8991D8191E54B90F00D7C69E /* Assets.xcassets in Resources */,
 				8991D8141E54B90F00D7C69E /* Main.storyboard in Resources */,
+				8991D8241E54B92E00D7C69E /* QuoteView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8991D8111E54B90F00D7C69E /* ViewController.swift in Sources */,
+				8991D82A1E54BE3800D7C69E /* HomeViewController.swift in Sources */,
+				8991D82C1E54C13900D7C69E /* MakeQuoteViewController.swift in Sources */,
+				8991D8281E54BBF300D7C69E /* DataManager.swift in Sources */,
 				8991D8171E54B90F00D7C69E /* _0170215_Quote_Pro.xcdatamodeld in Sources */,
+				89D2796B1E54FA0900CF4082 /* QuoteTableViewCell.swift in Sources */,
 				8991D80F1E54B90F00D7C69E /* AppDelegate.swift in Sources */,
+				89D2796D1E55002A00CF4082 /* QuoteManager.swift in Sources */,
+				8991D8261E54BAEC00D7C69E /* QuoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +335,7 @@
 				8991D8221E54B90F00D7C69E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

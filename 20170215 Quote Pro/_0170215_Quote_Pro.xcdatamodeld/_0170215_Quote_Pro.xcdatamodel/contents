@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PhotoObject" representedClassName="PhotoObject" syncable="YES" codeGenerationType="class">
+        <attribute name="photo" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="quote" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="QuoteObject" inverseName="photo" inverseEntity="QuoteObject" syncable="YES"/>
+    </entity>
+    <entity name="QuoteObject" representedClassName="QuoteObject" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quote" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotoObject" inverseName="quote" inverseEntity="PhotoObject" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PhotoObject" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="QuoteObject" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
 </model>

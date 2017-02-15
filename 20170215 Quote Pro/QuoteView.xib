@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QuoteView" customModule="_0170215_Quote_Pro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mvP-lu-ujq">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eep-cP-ohC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quote" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVr-Ew-lcS">
+                    <rect key="frame" x="37.5" y="0.0" width="300" height="400.5"/>
+                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRf-mK-3T1">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0Id-0f-VvM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkU-M2-wQo">
+                                <rect key="frame" x="290" y="12" width="77" height="30"/>
+                                <state key="normal" title="New Image"/>
+                                <connections>
+                                    <action selector="newImage:" destination="iN0-l3-epB" eventType="touchUpInside" id="rKa-ro-9jD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ni9-GK-Joz">
+                                <rect key="frame" x="8" y="12" width="77" height="30"/>
+                                <state key="normal" title="New Quote"/>
+                                <connections>
+                                    <action selector="newQuote:" destination="iN0-l3-epB" eventType="touchUpInside" id="cnj-id-ebe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBK-c0-a8o">
+                                <rect key="frame" x="170" y="12" width="34" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveQuote:" destination="iN0-l3-epB" eventType="touchUpInside" id="aqC-KL-ddI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IkU-M2-wQo" secondAttribute="trailing" constant="8" id="AWs-Xm-8fv"/>
+                            <constraint firstAttribute="bottom" secondItem="IkU-M2-wQo" secondAttribute="bottom" constant="8" id="Hhe-8N-9ll"/>
+                            <constraint firstAttribute="trailing" secondItem="IkU-M2-wQo" secondAttribute="trailing" constant="8" id="S1C-Rt-WfG"/>
+                            <constraint firstAttribute="bottom" secondItem="IkU-M2-wQo" secondAttribute="bottom" constant="8" id="fuo-rx-zni"/>
+                            <constraint firstItem="NBK-c0-a8o" firstAttribute="centerX" secondItem="0Id-0f-VvM" secondAttribute="centerX" id="img-OE-QG8"/>
+                            <constraint firstAttribute="bottom" secondItem="ni9-GK-Joz" secondAttribute="bottom" constant="8" id="od7-rA-PYO"/>
+                            <constraint firstItem="ni9-GK-Joz" firstAttribute="leading" secondItem="0Id-0f-VvM" secondAttribute="leading" constant="8" id="vB2-Wq-WBp"/>
+                            <constraint firstAttribute="bottom" secondItem="NBK-c0-a8o" secondAttribute="bottom" constant="8" id="yEK-Od-YqJ"/>
+                        </constraints>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Lc3-PL-qc1"/>
+                    </constraints>
+                    <blurEffect style="extraLight"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RRf-mK-3T1" secondAttribute="trailing" id="0QT-9i-oOC"/>
+                <constraint firstItem="mvP-lu-ujq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7tu-4h-Gpb"/>
+                <constraint firstAttribute="bottom" secondItem="Eep-cP-ohC" secondAttribute="bottom" id="Cdx-eV-zSa"/>
+                <constraint firstAttribute="bottom" secondItem="RRf-mK-3T1" secondAttribute="bottom" id="Cwy-Sj-3ss"/>
+                <constraint firstItem="Eep-cP-ohC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Kwr-2e-LcA"/>
+                <constraint firstAttribute="trailing" secondItem="Eep-cP-ohC" secondAttribute="trailing" id="aQ3-uu-JVX"/>
+                <constraint firstItem="mvP-lu-ujq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gv4-We-dDQ"/>
+                <constraint firstItem="MVr-Ew-lcS" firstAttribute="centerY" secondItem="mvP-lu-ujq" secondAttribute="centerY" multiplier="0.6" id="h72-wW-zEs"/>
+                <constraint firstItem="Eep-cP-ohC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hCf-NY-rKp"/>
+                <constraint firstAttribute="trailing" secondItem="mvP-lu-ujq" secondAttribute="trailing" id="ith-UX-yiQ"/>
+                <constraint firstItem="MVr-Ew-lcS" firstAttribute="centerX" secondItem="mvP-lu-ujq" secondAttribute="centerX" id="r4E-wH-4tU"/>
+                <constraint firstItem="RRf-mK-3T1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sdX-N0-QWh"/>
+                <constraint firstItem="MVr-Ew-lcS" firstAttribute="height" secondItem="mvP-lu-ujq" secondAttribute="height" multiplier="0.6" id="tnc-Ip-xfa"/>
+                <constraint firstItem="MVr-Ew-lcS" firstAttribute="width" secondItem="mvP-lu-ujq" secondAttribute="width" multiplier="0.8" id="tuR-pL-KLP"/>
+                <constraint firstAttribute="bottom" secondItem="mvP-lu-ujq" secondAttribute="bottom" id="wt3-If-kwa"/>
+            </constraints>
+            <connections>
+                <outlet property="quoteImage" destination="mvP-lu-ujq" id="2Iv-nt-Qv1"/>
+                <outlet property="quoteLabel" destination="MVr-Ew-lcS" id="sIj-aa-vfu"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
